@@ -1,15 +1,14 @@
 # Taste-Driven AI Designer
 
-本仓库用于持续整理和迭代 AI 设计方法。当前首份 skill 位于 [`taste-driven-ai-designer/SKILL.md`](taste-driven-ai-designer/SKILL.md)。
+本仓库用于持续整理和迭代 AI 设计方法。当前目录本身就是一个持续迭代的 skill，入口文件为 [`SKILL.md`](SKILL.md)。设计文档、方法论和后续补充材料都属于这个 skill。
 
 ## 结构
 
 ```text
 .
+├── SKILL.md
 ├── README.md
-├── .gitignore
-└── taste-driven-ai-designer/
-    └── SKILL.md
+└── .gitignore
 ```
 
-后续新增 skill 时，为每个 skill 建立独立目录，并在目录内放置 `SKILL.md`；只有确有需要时再添加 `references/`、`assets/` 或 `scripts/` 等资源目录。
+后续请在当前 skill 内持续更新 `SKILL.md`，并按需添加 `references/`、`assets/` 或 `scripts/` 等支持材料；不要在本目录下再创建另一个 skill 子目录。
